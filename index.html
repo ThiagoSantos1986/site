@@ -62,12 +62,41 @@
             Direitos reservados a Thiago
         </p>
         <section id="contato">
+
             <h2>Contato</h2>
             <p>Tem um Projeto entre em contato</p>
-            <address>
+            <form action="">
+                <label for="nome">NOME: </label>
+                <input type="text" name="nome" id="nome" required><br> <br>  
+                <label for="email">E-MAIL: </label>
+                <input type="email " name="email" id="email" required> <br><br>   
+                <label for="telefone">TELEFONE: </label>
+                <input type="tel" name="telefone" id="telefone"><br><br>
+                
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento"> Orçamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="incricao">Deseja receber minha newsletter? Fique por dentro</label>
+
+                <br>
+
+                <input type="submit" value="Enviar Mensagem">
+
+            </form>
+            <!-- <address>
                 E_mail: <a href="mailto:thiago.cosme2023@gmail.com">thiago.cosme2023@gmail.com"</a><br>
                 Telefone: <a href="tel:+554799920-2993">+554799920-2993</a>
-            </address>
+            </address> -->
 
         </section>
     </footer>
