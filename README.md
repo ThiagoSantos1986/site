@@ -1,2 +1,2 @@
 # site
-site Portifolio e aprimorando conhecimentos em HTMl, CSS  e JAVASCRIPTS
+Criando um Portifolio e aprimorando os conhecimentos em HTMl, CSS e JAVASCRIPTS
